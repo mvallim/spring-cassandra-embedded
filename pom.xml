@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.mvallim</groupId>
-	<artifactId>spring-cassadra-embedded</artifactId>
+	<artifactId>spring-cassandra-embedded</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<parent>
@@ -24,15 +24,15 @@
 	</properties>
 
 	<scm>
-		<url>scm:git:git@github.com:mvallim/spring-cassadra-embedded</url>
-		<connection>scm:git:git@github.com:mvallim/spring-cassadra-embedded</connection>
-		<developerConnection>scm:git:git@github.com:mvallim/spring-cassadra-embedded</developerConnection>
+		<url>scm:git:git@github.com:mvallim/spring-cassandra-embedded</url>
+		<connection>scm:git:git@github.com:mvallim/spring-cassandra-embedded</connection>
+		<developerConnection>scm:git:git@github.com:mvallim/spring-cassandra-embedded</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
-	<name>spring-cassadra-embedded</name>
-	<description>spring-cassadra-embedded</description>
-	<url>https://github.com/mvallim/spring-cassadra-embedded</url>
+	<name>spring-cassandra-embedded</name>
+	<description>spring-cassandra-embedded</description>
+	<url>https://github.com/mvallim/spring-cassandra-embedded</url>
 	<inceptionYear>2020</inceptionYear>
 
 	<organization>
