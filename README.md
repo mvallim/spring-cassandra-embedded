@@ -1,5 +1,11 @@
 # spring-cassandra-embedded
 
+[![Build Status](https://travis-ci.org/mvallim/spring-cassandra-embedded.svg?branch=master)](https://travis-ci.org/mvallim/spring-cassandra-embedded)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring-cassandra-embedded&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring-cassandra-embedded)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=spring-cassandra-embedded&metric=coverage)](https://sonarcloud.io/dashboard?id=spring-cassandra-embedded)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.mvallim/spring-cassandra-embedded/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.mvallim/spring-cassandra-embedded)
+[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+
 # Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
