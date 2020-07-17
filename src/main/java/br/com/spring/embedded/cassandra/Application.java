@@ -1,4 +1,4 @@
-package br.com.itau.spring.cassandra.embedded;
+package br.com.spring.embedded.cassandra;
 
 import java.io.IOException;
 
