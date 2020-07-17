@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>br.com.itau</groupId>
+	<artifactId>spring-cassadra-embedded</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.2.RELEASE</version>
+		<relativePath />
+	</parent>
+
+	<name>spring-cassadra-embedded</name>
+	<description>spring-cassadra-embedded</description>
+
+	<properties>
+		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<spring.boot.version>${project.parent.version}</spring.boot.version>
+		<cassandra.version>3.11.6</cassandra.version>
+	</properties>
+
+	<scm>
+		<url>scm:git:git@github.com:mvallim/spring-cassadra-embedded</url>
+		<connection>scm:git:git@github.com:mvallim/spring-cassadra-embedded</connection>
+		<developerConnection>scm:git:git@github.com:mvallim/spring-cassadra-embedded</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<url>https://github.com/mvallim/spring-cassadra-embedded</url>
+	<inceptionYear>2020</inceptionYear>
+
+	<organization>
+		<name>com.github.mvallim</name>
+		<url>https://github.com/mvallim</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<name>Marcos Vallim</name>
+			<email>mvallim@ciandt.com</email>
+			<timezone>-3</timezone>
+		</developer>
+	</developers>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.cassandra</groupId>
+			<artifactId>cassandra-all</artifactId>
+			<version>${cassandra.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+	
+</project>
