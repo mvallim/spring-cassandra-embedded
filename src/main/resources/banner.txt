@@ -1,0 +1,3 @@
+Application........: ${application.title}:${application.version}
+Application Listen.: ${AnsiColor.GREEN}${application.listen}${AnsiColor.GREEN}${AnsiColor.DEFAULT}
+Cassandra Version..: ${AnsiColor.RED}${cassandra.version}${AnsiColor.RED}${AnsiColor.DEFAULT}
