@@ -30,7 +30,10 @@ Before run `spring-cassandra-embedded`, you must do download the last version of
 1. Run embedded Cassandra
 
    ```shell
-   java -jar ~/.m2/repository/com/github/mvallim/spring-cassandra-embedded/0.0.4/spring-cassandra-embedded-0.0.4.jar
+   java -jar \
+	-Dcassandra.storagedir=/tmp/cassandra \
+	-Dcassandra.jmx.local.port=9043 \
+	~/.m2/repository/com/github/mvallim/spring-cassandra-embedded/0.0.4/spring-cassandra-embedded-0.0.4.jar
    ```
 
    Output should be
