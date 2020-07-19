@@ -44,7 +44,7 @@ Before run `spring-cassandra-embedded`, you must do download the last version of
    Cassandra Version..: 3.11.6
    ```
 
-### 1.4 Check ports
+### 1.3 Check ports
 
 1. Check the application ports
 
