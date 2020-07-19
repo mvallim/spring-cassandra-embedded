@@ -4,7 +4,7 @@
 
 	<groupId>com.github.mvallim</groupId>
 	<artifactId>spring-cassandra-embedded</artifactId>
-	<version>0.0.4</version>
+	<version>0.0.5-SNAPSHOT</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -28,7 +28,7 @@
 		<url>scm:git:git@github.com:mvallim/spring-cassandra-embedded</url>
 		<connection>scm:git:git@github.com:mvallim/spring-cassandra-embedded</connection>
 		<developerConnection>scm:git:git@github.com:mvallim/spring-cassandra-embedded</developerConnection>
-		<tag>spring-cassandra-embedded-0.0.4</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<name>spring-cassandra-embedded</name>
