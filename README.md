@@ -21,7 +21,7 @@ Before run `spring-cassandra-embedded`, you must do download the last version of
        -DremoteRepositories=http://repo1.maven.org/maven2/ \
        -DgroupId=com.github.mvallim \
        -DartifactId=spring-cassandra-embedded \
-       -Dversion=0.0.3 \
+       -Dversion=0.0.4 \
        -Dtransitive=false
    ```
 
@@ -30,15 +30,15 @@ Before run `spring-cassandra-embedded`, you must do download the last version of
 1. Run embedded Cassandra
 
    ```shell
-   java -jar ~/.m2/repository/com/github/mvallim/spring-cassandra-embedded/0.0.3/spring-cassandra-embedded-0.0.3.jar
+   java -jar ~/.m2/repository/com/github/mvallim/spring-cassandra-embedded/0.0.4/spring-cassandra-embedded-0.0.4.jar
    ```
 
    Output should be
 
    ```text
-   Application........: spring-cassandra-embedded:0.0.3-SNAPSHOT
-   Application Listen.: [32mlocalhost:9042[32m[39m
-   Cassandra Version..: [31m3.11.6
+   Application........: spring-cassandra-embedded:0.0.4
+   Application Listen.: localhost:9042
+   Cassandra Version..: 3.11.6
    ```
 
 ### 1.4 Check ports
