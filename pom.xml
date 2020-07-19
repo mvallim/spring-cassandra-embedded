@@ -21,6 +21,9 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<spring.boot.version>${project.parent.version}</spring.boot.version>
 		<cassandra.version>3.11.6</cassandra.version>
+		<sonar.exclusions>
+			**/Application.java
+		</sonar.exclusions>
 	</properties>
 
 	<scm>
@@ -105,6 +108,11 @@
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.8.4</version>
+				<configuration>
+				    <excludes>
+				        <exclude>**/Application.*</exclude>
+				    </excludes>
+				</configuration>
 				<executions>
 					<execution>
 						<id>prepare-agent</id>
