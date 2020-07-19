@@ -1,12 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.mvallim</groupId>
 	<artifactId>spring-cassandra-embedded</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.3</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -30,7 +28,7 @@
 		<url>scm:git:git@github.com:mvallim/spring-cassandra-embedded</url>
 		<connection>scm:git:git@github.com:mvallim/spring-cassandra-embedded</connection>
 		<developerConnection>scm:git:git@github.com:mvallim/spring-cassandra-embedded</developerConnection>
-		<tag>HEAD</tag>
+		<tag>spring-cassandra-embedded-0.0.3</tag>
 	</scm>
 
 	<name>spring-cassandra-embedded</name>
