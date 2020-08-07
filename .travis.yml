@@ -3,8 +3,7 @@ language: java
 addons:
   sonarcloud:
     organization: "mvallim"
-    token:
-      secure: "LXcZIEF7OFdmuLqVkPr6/TLkWAeG7TJZj7T6Qlfj+ocBvgRVRhgXLdAMrpji/Oe9FYg5FpPSKPnwrj9/uG41zJ+mxngbltJ3lPL2Y8b+QGsTCfoemd/JbNF/9uvCAlcAT0iV2N7xph3+qgG7LOAXGJxvWYSsGOhevq5eSLsKGAii/pX6tphLtuGCjzEd1HR0g97ZuxECSujv+KYoNxpqgLme/k/xtRmmtg59datXeFx24vQxdS8FRETT/Q8LOEHp4TrKBZmYkdItONpSy0Qva2nmENpRchKHwiE6VFRJKa2q+OpMFirr86TdsQ9c/AHA4NfihfUU118CbohQqY1GcIZfegM/mzn3qv/QPKufCx1ra6IVhZtDPLIprLkamsKPVBwLaYVsGcbbFugQ265BWrjVpDaeZuwLgP5K7FLcle1bbpM2mDIFUKxp1AVsxJJDTDrDz5KELf//z4C2NaFQEw/oUxjCq5tbxG1ON0iL7js6a0Mlv5Q9x/c09fJmkfzd5tMVy0lgeIQf91wZR2vXTLJ8mq0KhKx2kHAXBPi81aZXNkEjM52uTuzCm/QdoOKRtLYNOrcMdm1JkbN51b0EeMtxp7NR1HLciIDLtnQu/IkBUzeL8nQi7QeQt4XBJid9SiCtv5PbVn5BEQQvjAQrva3+x6RRnwcnXZpDEEOIBVM="
+    token: ${SONAR_TOKEN}
 
 cache:
   directories:
@@ -12,10 +11,6 @@ cache:
 
 script:
   - mvn clean compile
-  - mvn test
-
-#install:
-#  - git fetch --unshallow
 
 after_success:
   - mvn clean test jacoco:report org.jacoco:jacoco-maven-plugin:prepare-agent sonar:sonar -Dsonar.projectKey=spring-cassandra-embedded
