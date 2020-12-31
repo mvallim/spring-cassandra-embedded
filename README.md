@@ -1,6 +1,6 @@
 # spring-cassandra-embedded
 
-![Java CI with Maven](https://github.com/mvallim/spring-cassandra-embedded/workflows/Java%20CI%20with%20Maven/badge.svg)
+![Java CI with Maven](https://github.com/mvallim/spring-cassandra-embedded/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring-cassandra-embedded&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring-cassandra-embedded)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=spring-cassandra-embedded&metric=coverage)](https://sonarcloud.io/dashboard?id=spring-cassandra-embedded)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.mvallim/spring-cassandra-embedded/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.mvallim/spring-cassandra-embedded)
