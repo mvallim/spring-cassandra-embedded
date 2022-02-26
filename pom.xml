@@ -20,7 +20,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<spring.boot.version>${project.parent.version}</spring.boot.version>
-		<cassandra.version>3.11.6</cassandra.version>
+		<cassandra.version>3.11.12</cassandra.version>
 		<sonar.exclusions>
 			**/Application.java
 		</sonar.exclusions>
